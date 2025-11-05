@@ -1,20 +1,19 @@
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import CoursesHero from "@/components/courses/CoursesHero";
+import NursingPrograms from "@/components/courses/NursingPrograms";
+import ParamedicalPrograms from "@/components/courses/ParamedicalPrograms";
+import AlliedHealthPrograms from "@/components/courses/AlliedHealthPrograms";
 
 const Courses = () => {
   return (
     <div className="min-h-screen">
       <Navbar />
       <main className="pt-20">
-        <div className="container mx-auto px-4 py-20">
-          <h1 className="font-heading font-bold text-4xl md:text-5xl text-center mb-8">
-            Our Courses
-          </h1>
-          <p className="text-center text-muted-foreground max-w-3xl mx-auto text-lg">
-            Explore Career-Focused Healthcare Programs
-          </p>
-          {/* Content will be added in future iterations */}
-        </div>
+        <CoursesHero />
+        <NursingPrograms />
+        <ParamedicalPrograms />
+        <AlliedHealthPrograms />
       </main>
       <Footer />
     </div>

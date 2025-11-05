@@ -1,5 +1,10 @@
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
+import IntroSection from "@/components/about/IntroSection";
+import LeadershipSection from "@/components/about/LeadershipSection";
+import FacultySection from "@/components/about/FacultySection";
+import InfrastructureSection from "@/components/about/InfrastructureSection";
+import CoreValuesSection from "@/components/about/CoreValuesSection";
 
 const AboutUs = () => {
   return (
@@ -10,11 +15,12 @@ const AboutUs = () => {
           <h1 className="font-heading font-bold text-4xl md:text-5xl text-center mb-8">
             About Janapriya Group
           </h1>
-          <p className="text-center text-muted-foreground max-w-3xl mx-auto text-lg">
-            Rooted in Values, Growing with Excellence
-          </p>
-          {/* Content will be added in future iterations */}
         </div>
+        <IntroSection />
+        <LeadershipSection />
+        <FacultySection />
+        <InfrastructureSection />
+        <CoreValuesSection />
       </main>
       <Footer />
     </div>
