@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => {
   const base = mode === "production" ? REPO_BASE : "/";
 
   return {
-    base,
+    base:"/janapriya-college-hassan",
     server: {
       host: "::",
       port: 8080,
